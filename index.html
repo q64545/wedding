@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f3ec">
+  <meta name="description" content="一封关于爱与相聚的婚礼邀请。期待与你一起，见证我们的幸福时刻。">
+  <meta name="robots" content="noindex, nofollow">
+  <title>我们的婚礼 · 诚挚邀请</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/photos/9362-sm.jpg" imagesrcset="assets/photos/9362-sm.jpg 640w, assets/photos/9362-lg.jpg 1200w" imagesizes="(min-width: 900px) 55vw, 100vw" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="wedding-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#details">跳至婚礼信息</a>
+  <div class="demo-note" id="demo-note" hidden>预览版 <span>·</span> 姓名、婚期与场地为示例信息</div>
+  <header class="site-header">
+    <a class="monogram" href="#top" data-bind="monogram" aria-label="回到请柬开头">Y & Z</a>
+    <span class="header-label">THE WEDDING INVITATION</span>
+    <a class="header-link" href="#details">赴约 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-photo">
+        <img src="assets/photos/9362-sm.jpg" srcset="assets/photos/9362-sm.jpg 640w, assets/photos/9362-lg.jpg 1200w" sizes="(min-width: 900px) 55vw, 100vw" width="1200" height="1800" alt="白色拱门下，两人牵手相望" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-bind="heroEyebrow">WE ARE GETTING MARRIED</p>
+        <h1 id="hero-title" class="line-copy" data-bind="heroTitle">把余生，<br>写成我们。</h1>
+        <div class="couple-names"><span data-bind="groom">予安</span><i>&</i><span data-bind="bride">知夏</span></div>
+        <p class="hero-subtitle" data-bind="heroSubtitle">诚邀你，成为这一天的见证。</p>
+        <div class="hero-date"><span class="hairline"></span><time data-date="numeric">2027.05.20</time><span class="hairline"></span></div>
+        <a class="hero-invitation" href="#invitation">打开这封邀请 <span aria-hidden="true">↓</span></a>
+      </div>
+      <span class="hero-side-label" aria-hidden="true">A LITTLE PROMISE, A LIFETIME OF LOVE</span>
+    </section>
+
+    <section class="invitation section-shell" id="invitation" aria-labelledby="invitation-title">
+      <div class="invitation-image reveal">
+        <div class="image-arch"><img src="assets/photos/9327-sm.jpg" srcset="assets/photos/9327-sm.jpg 640w, assets/photos/9327-lg.jpg 1200w" sizes="(min-width: 900px) 35vw, 76vw" width="1200" height="1800" alt="湖畔花拱门下的婚纱合影" loading="lazy" decoding="async"></div>
+        <span class="photo-note">YOU, ME & ALL THE LITTLE THINGS.</span>
+        <svg class="botanical" viewBox="0 0 100 180" fill="none" aria-hidden="true"><path d="M46 172C49 123 63 65 53 13M49 139C21 132 12 117 14 100C33 103 45 118 49 139ZM53 115C78 108 90 93 89 77C69 80 57 94 53 115ZM57 85C32 79 23 65 25 50C43 55 53 68 57 85ZM57 59C78 52 82 39 81 25C66 31 60 44 57 59ZM55 37C43 25 41 12 45 3C54 11 57 24 55 37Z" stroke="currentColor" stroke-width="1.2"/></svg>
+      </div>
+      <div class="invitation-copy reveal">
+        <p class="section-kicker">01 <span></span> A LETTER TO YOU</p>
+        <h2 id="invitation-title" class="line-copy" data-bind="invitationTitle">这一封邀请，<br>写给重要的你。</h2>
+        <div id="invitation-paragraphs" class="letter-body"></div>
+        <p class="signature"><span data-bind="groom">予安</span><i>&</i><span data-bind="bride">知夏</span><small>敬邀</small></p>
+      </div>
+    </section>
+
+    <figure class="wide-moment reveal">
+      <img src="assets/photos/9390-sm.jpg" srcset="assets/photos/9390-sm.jpg 960w, assets/photos/9390-lg.jpg 1800w" sizes="100vw" width="1800" height="1200" loading="lazy" decoding="async" alt="通透明亮的湖边礼堂，两人隔着轻盈头纱相望">
+      <figcaption><span>TOGETHER IS A BEAUTIFUL PLACE TO BE.</span><p>是心动，也是笃定。</p></figcaption>
+    </figure>
+
+    <section class="gallery section-shell" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading reveal"><div><p class="section-kicker">02 <span></span> OUR LITTLE UNIVERSE</p><h2 id="gallery-title" data-bind="galleryTitle">在一起的每一帧</h2></div><p class="quiet-note">把喜欢，藏进日常。<br>轻点照片，慢慢看。</p></div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+      <button class="text-button" id="open-album" type="button">翻开完整相册 <span id="album-count">11 张</span><span aria-hidden="true">↗</span></button>
+    </section>
+
+    <section class="details-wrap" id="details" aria-labelledby="details-title">
+      <div class="details section-shell">
+        <div class="event-heading reveal"><p class="section-kicker">03 <span></span> SAVE THE DATE</p><h2 id="details-title">为相聚，留一天。</h2><p>这一次，想把我们最重要的日子，<br>交给你来见证。</p></div>
+        <div class="event-card reveal">
+          <div class="event-date"><span id="event-month">MAY · 2027</span><strong id="event-day">20</strong><p><span id="event-weekday">星期四</span><span class="date-divider">/</span><span id="event-time">17:30</span></p></div>
+          <div class="event-location"><span class="small-label">婚礼地点</span><h3 data-bind="venue">示例花园酒店</h3><p class="hall" data-bind="hall">云庭宴会厅 · 2F</p><p class="address" data-bind="address">示例市 · 幸福路 520 号</p><a id="map-link" class="map-link" target="_blank" rel="noopener noreferrer" hidden>查看地图 <span aria-hidden="true">↗</span></a></div>
+          <div class="event-actions"><button id="save-calendar" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v6m8-6v6M4 11h16m-12 4h3m2 0h3"/></svg>保存日程</button><button id="copy-address" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M16 21H5V7m4-4h11v14H9z"/></svg>复制地址</button></div>
+        </div>
+        <div class="schedule reveal" id="schedule" aria-label="婚礼流程"></div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <img class="closing-photo" src="assets/photos/9871-sm.jpg" srcset="assets/photos/9871-sm.jpg 640w, assets/photos/9871-lg.jpg 1200w" sizes="(min-width: 900px) 60vw, 100vw" width="1200" height="1800" alt="夜色里，两人举起烟花，分享幸福" loading="lazy" decoding="async">
+      <div class="closing-copy"><span class="eyebrow">WITH LOVE, ALWAYS.</span><h2 id="closing-title" class="line-copy" data-bind="closingTitle">最好的时刻，<br>想与你一起。</h2><p class="line-copy" data-bind="closingNote">带上祝福，带上笑容。<br>我们在婚礼现场，等你。</p><span class="closing-signature" data-bind="monogram">Y & Z</span></div>
+    </section>
+  </main>
+  <footer><span data-bind="groom">予安</span><span class="footer-heart" aria-hidden="true">♡</span><span data-bind="bride">知夏</span><span class="footer-date" data-date="numeric">2027.05.20</span><p>谢谢你，出现在我们的幸福里。</p></footer>
+  <nav class="mobile-nav" aria-label="请柬导航"><a href="#gallery"><span aria-hidden="true">◇</span>我们的照片</a><span class="nav-separator"></span><a href="#details"><span aria-hidden="true">↗</span>婚礼安排</a></nav>
+  <button class="music-button" id="music-button" hidden type="button" aria-label="播放背景音乐" aria-pressed="false">♫</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="婚纱相册" hidden>
+    <div class="lightbox-top"><span id="lightbox-counter">01 / 11</span><button id="close-lightbox" aria-label="关闭相册" type="button">×</button></div>
+    <button class="lightbox-prev" id="prev-photo" aria-label="上一张照片" type="button">‹</button>
+    <figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-next" id="next-photo" aria-label="下一张照片" type="button">›</button>
+    <p class="lightbox-help">左右滑动或轻点箭头，继续翻看</p>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript-note">请启用 JavaScript 查看完整婚礼信息和相册。</p></noscript>
+</body>
+</html>
