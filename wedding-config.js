@@ -26,7 +26,7 @@ window.WEDDING_CONFIG = {
   },
   wedding: {
     // 保留 +08:00，表示北京时间。也可以填写带时区的其他日期。
-    dateTime: "2027-01-02T12:-0:00+08:00",
+    dateTime: "2027-01-02T12:00:00+08:00",
     endDateTime: "2027-01-02T23:59:59+08:00",
     timeZone: "Asia/Shanghai",
     venue: "示例花园酒店",
