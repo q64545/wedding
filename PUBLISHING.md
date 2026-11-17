@@ -8,7 +8,7 @@
 4. 部署完成后访问 https://q64545.github.io/wedding/ 。默认地址无需购买域名；GitHub Free 使用公开仓库发布 Pages。
 5. 在微信里打开链接，检查照片、文字、地址复制及实际加载速度。国内网络体验需实测。
 
-今后以本仓库中的 `wedding-config.js` 和页面文件为修改对象。父目录中的 `dist` 与 ZIP 是此前的独立副本，不会自动同步。
+今后以本仓库中的 `wedding-config.js` 和页面文件为修改对象。父目录的 `dist/wedding-config.js` 已链接到本仓库配置，以兼容旧编辑路径；`dist` 的其余文件及 ZIP 仍为初版快照，不会自动同步。父目录的 `预览.command` 已改为预览本仓库。
 
 本地预览：在仓库目录运行 `python3 -m http.server 4177 --bind 127.0.0.1`，再打开 http://127.0.0.1:4177/ 。
 

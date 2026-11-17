@@ -29,9 +29,9 @@ window.WEDDING_CONFIG = {
     dateTime: "2027-01-02T12:00:00+08:00",
     endDateTime: "2027-01-02T23:59:59+08:00",
     timeZone: "Asia/Shanghai",
-    venue: "示例花园酒店",
-    hall: "云庭宴会厅 · 2F",
-    address: "示例市 · 幸福路 520 号",
+    venue: "萍乡凯光格兰云天国际酒店",
+    hall: "会议中心：二楼、普罗旺斯厅",
+    address: "江西省萍乡市安源区玉湖东路106号",
     // 填入真实地图分享链接后，页面才显示“查看地图”。
     mapUrl: "",
     schedule: [
